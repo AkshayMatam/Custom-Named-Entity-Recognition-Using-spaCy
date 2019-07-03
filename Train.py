@@ -9,9 +9,9 @@ import spacy
 import random
 
 
-TRAIN_DATA = [('I want to access tress', {'entities': [(17, 22, 'Application Name')]}), 
+TRAIN_DATA = [('I want to access shant', {'entities': [(17, 22, 'Application Name')]}), 
               ('I need access for SAP', {'entities': [(18, 21, 'Application Name')]}),
-              ('can not access cona portal', {'entities': [(15, 19, 'Application Name')]}),   
+              ('can not access tran', {'entities': [(15, 19, 'Application Name')]}),   
         ('what is the price of polo?', {'entities': [(21, 25, 'PrdName')]}), 
               ('what is the price of ball?', {'entities': [(21, 25, 'PrdName')]}), 
               ('what is the price of jegging?', {'entities': [(21, 28, 'PrdName')]}), 
